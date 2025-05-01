@@ -1,4 +1,4 @@
-# MineSweeper
+ # MineSweeper
 AI Agent created to solve minesweeper
 
 
@@ -37,11 +37,11 @@ Flag	Description
 python3 agent2.py 1 y y
 ```
 
-    Uses a 16×16 board with 40 mines
+- Uses a 16×16 board with 40 mines
 
-    Ensures the first click is on a zero-tile
+- Ensures the first click is on a zero-tile
 
-    Renders the game graphics in a window
+- Renders the game graphics in a window
 
 🧠 AI Agent Notes
 
