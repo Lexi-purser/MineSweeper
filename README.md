@@ -20,8 +20,7 @@ AI Agent created to solve minesweeper
 ```bash
 python3 agent2.py {0,1,2} {y,n} {y,n}
 ```
-📌 Positional Arguments
-Argument	Description
+Where:
 - {0,1,2}	Board size:
    - 0 → 9×9 (10 mines)
    - 1 → 16×16 (40 mines)
@@ -33,9 +32,10 @@ Argument	Description
 🛠️ Optional Flags
 Flag	Description
 -h, --help	Show help message and usage examples
-📌 Example
-
+### Example
+```bash
 python3 agent2.py 1 y y
+```
 
     Uses a 16×16 board with 40 mines
 
@@ -49,24 +49,10 @@ python3 agent2.py 1 y y
 
     Feel free to explore each agent file to compare their performance and techniques!
 
-👨‍💻 Author
+## Author
+Lexi Purser
 
-Your Name Here
-Pull requests and forks are welcome!
 
-## How to run
-download the repository
-pick the agent you want to run from mine-sweeper-environment/mine-sweeper-agent/
-For example, if I wanted to run agent2.py
-python3 agent2.py --help
-
-usage: agent2.py [-h] {0,1,2} {y,n} {y,n}
-positional arguments:
-  {0,1,2}     board option 0 - 9x9 board with 10 mines 1 - 16x16 board with 40 mines 2 - 21x21 board with 99 mines
-  {y,n}       First choice is automaticaly done on a zero tile
-  {y,n}       Render game graphics
-options:
-  -h, --help  show this help message and exit
 
 
 # MineSweeper
