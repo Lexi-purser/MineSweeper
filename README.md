@@ -11,11 +11,6 @@ AI Agent created to solve minesweeper
    cd mine-sweeper-environment/mine-sweeper-agent/
    ```
 
-    Run an agent file. For example, to run agent2.py:
-   ```bash
-    python3 agent2.py --help
-   ```
-
 ## 🕹️ Command Usage
 ```bash
 python3 agent2.py {0,1,2} {y,n} {y,n}
@@ -29,7 +24,7 @@ Where:
    - y = Yes, n = No
 - {y,n}	Render game with graphics?
    - y = Yes, n = No
-If you need a reminder use the --help flag
+### If you need a reminder use the --help flag
 -h, --help	Show help message and usage examples
 ### Example
 ```bash
