@@ -29,8 +29,7 @@ Where:
    - y = Yes, n = No
 - {y,n}	Render game with graphics?
    - y = Yes, n = No
-🛠️ Optional Flags
-Flag	Description
+If you need a reminder use the --help flag
 -h, --help	Show help message and usage examples
 ### Example
 ```bash
@@ -38,16 +37,8 @@ python3 agent2.py 1 y y
 ```
 
 - Uses a 16×16 board with 40 mines
-
 - Ensures the first click is on a zero-tile
-
-- Renders the game graphics in a window
-
-🧠 AI Agent Notes
-
-    Each agent may use a different solving algorithm such as rule-based logic, constraint satisfaction, or probabilistic inference.
-
-    Feel free to explore each agent file to compare their performance and techniques!
+- Renders the game graphics in the terminal
 
 ## Author
 Lexi Purser
@@ -55,7 +46,7 @@ Lexi Purser
 
 
 
-# MineSweeper
+# MineSweeper Details
 ![Minesweeper Ai Agent Details page 1](readMeImages/1.png)
 
 ![Minesweeper Ai Agent Details page 2](readMeImages/2.png)
