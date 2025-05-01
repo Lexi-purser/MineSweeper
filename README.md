@@ -22,14 +22,14 @@ python3 agent2.py {0,1,2} {y,n} {y,n}
 
 📌 Positional Arguments
 Argument	Description
-{0,1,2}	Board size:
-0 → 9×9 (10 mines)
-1 → 16×16 (40 mines)
-2 → 21×21 (99 mines)
-{y,n}	Start game with first choice on a zero-tile?
-y = Yes, n = No
-{y,n}	Render game with graphics?
-y = Yes, n = No
+- {0,1,2}	Board size:
+   - 0 → 9×9 (10 mines)
+   - 1 → 16×16 (40 mines)
+   - 2 → 21×21 (99 mines)
+- {y,n}	Start game with first choice on a zero-tile?
+   - y = Yes, n = No
+- {y,n}	Render game with graphics?
+   - y = Yes, n = No
 🛠️ Optional Flags
 Flag	Description
 -h, --help	Show help message and usage examples
