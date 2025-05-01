@@ -16,10 +16,10 @@ AI Agent created to solve minesweeper
     python3 agent2.py --help
    ```
 
-🕹️ Command Usage
-
+## 🕹️ Command Usage
+```bash
 python3 agent2.py {0,1,2} {y,n} {y,n}
-
+```
 📌 Positional Arguments
 Argument	Description
 - {0,1,2}	Board size:
