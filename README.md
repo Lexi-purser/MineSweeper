@@ -2,20 +2,6 @@
 AI Agent created to solve minesweeper
 
 
-# 🧠 MineSweeper AI Agent
-
-This project is an AI-based agent designed to solve the classic **Minesweeper** game.  
-Multiple intelligent agents are included, each implementing a different strategy for navigating and solving minesweeper puzzles.
-
-## 📂 Project Structure
-
-The main logic is found in:
-
-mine-sweeper-environment/ │ └── mine-sweeper-agent/ ├── agent1.py ├── agent2.py └── agent3.py
-
-
-Each file contains a different AI agent that can be run independently.
-
 ## 🚀 How to Run
 
 1. **Clone or download** the repository.
@@ -23,10 +9,12 @@ Each file contains a different AI agent that can be run independently.
 2. **Navigate** to the `mine-sweeper-agent` directory:
    ```bash
    cd mine-sweeper-environment/mine-sweeper-agent/
+   ```
 
     Run an agent file. For example, to run agent2.py:
-
+   ```bash
     python3 agent2.py --help
+   ```
 
 🕹️ Command Usage
 
